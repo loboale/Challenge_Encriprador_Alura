@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/segurity_prueba.svg">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img class="header__logo" src="./img/alura.svg" alt="">
+        </div>
+
+    </header>
+    <main>
+        <div class="main">
+            <div class="izquierda">
+                <textarea id="ingresoTexto" class="ingreso__texto" placeholder="Ingrese aquí su texto" name="" id=""></textarea>
+                <div class="izquierda__footer">
+                    <img src="./img/!.svg" alt="">
+                    <span class="izquierda__info">Solo letras minúsculas y sin acentos</span>
+                    <div class="izquierda__botones">
+                        <button id="botonEncriptar" class="boton__encriptar">Encriptar</button>
+                        <button id="botonDesencriptar" class="boton__desencriptar">Desencriptar</button>
+
+                    </div>
+                    
+
+                </div>
+              
+            </div>
+    
+            <div id="derecha" class="derecha ajustar">
+                <img id="muneco" class="muneco" src="./img/Muñeco.png" alt="">
+                <textarea id="mensajeFinal" class="mensaje__final" placeholder="Ningún mensaje fue encontrado"></textarea>
+                <p id="derechaInfo" class="derecha__info">Ingrese el texto que desees desencriptar</p>
+                <button id="botonCopiar" class="boton__copiar oculto">Copiar</button>
+            </div>
+
+        </div>
+        
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="iconos">
+                <a href="">
+                    <img class="links" src="./img/github.svg" alt="icono a github">
+                </a>
+                <a href="">
+                    <img class="links" src="./img/linkedin.svg" alt="icono a linkedin">
+                </a>
+            </div>
+            <p class="creador">© Todos los derechos reservados 2024 - Creado por Aragón Rodriguez Alexis</p>
+        </div>
+
+    </footer>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
